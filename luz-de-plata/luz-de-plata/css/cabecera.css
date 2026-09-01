@@ -1,0 +1,37 @@
+/* Estilos de la cabecera: logo, buscador, usuario y carrito */
+.cabecera {
+    display: flex;
+    align-items: center;
+    padding: 20px 10px;
+    justify-content: space-between;
+    background-color: white;
+    color: black;
+
+}
+
+.logo {
+    text-align: center;
+}
+
+.logo img{
+    width: 200px;
+    height: auto;
+}
+
+.buscador input {
+    width: 300px;
+    padding: 8px;
+
+    border: solid 1px black;
+    background-color: white;
+}
+
+.acciones {
+    display: flex;
+    gap: 20px;
+}
+
+.acciones a {
+    color: black;
+    text-decoration: none;
+}
