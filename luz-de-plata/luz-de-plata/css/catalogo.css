@@ -1,1 +1,40 @@
 /* Estilos de catálogo, categorías y tarjetas de productos */
+.opciones{
+    border: solid 1px whitesmoke;
+    padding: 50px;
+    width: auto;
+    height: auto;
+    margin: 40px auto;
+
+}
+
+.envios div div div{
+    border: solid 1px grey;
+    padding: 15px;
+    width: 250px;
+    height: 250px;
+    align-items: center;
+    color: aqua;
+}
+.envios div div{
+    border: solid 1px black;
+    padding: 15px;
+    width: 250px;
+    height: 250px;
+}
+.envios div div ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding: 15px;
+}
+.envios div div ul li img{
+    width: 50px;
+    height: 50px;
+}
+
+.envios div div ul{
+    justify-content: center;
+    padding: 20px;
+}
