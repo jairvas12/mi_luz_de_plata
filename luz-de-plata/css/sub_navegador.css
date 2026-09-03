@@ -1,0 +1,25 @@
+
+.sub_navegador{
+    width: 400px;
+    border: solid 1px black;
+    background-color: rgb(255, 255, 255);
+    margin: 20px auto;
+    border-radius: 20px;
+}
+
+.sub_navegador ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding: 8px;
+    margin: 5px auto;
+}
+.sub_navegador ul li{
+    color: black;
+    font-size: 13px;
+}
+
+.sub_navegador ul li a{
+    color: black;
+}

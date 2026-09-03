@@ -1,0 +1,216 @@
+/* Estilos de catálogo, categorías y tarjetas de productos */
+.opciones {
+  padding: 20px;
+  width: auto;
+  height: 200px;
+  margin: 40px auto;
+}
+
+.contenedor_opciones {
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+  padding: 10px;
+  width: auto;
+  height: 300px;
+}
+
+.contenedor_opciones2 {
+  display: flex;
+  justify-content: center;
+  gap: 35px;
+  padding: 10px;
+  width: auto;
+  height: 100px;
+}
+
+.contenedor_envios {
+  background-color: rgb(248, 248, 248);
+  border: solid 1px rgb(211, 211, 211);
+  width: auto;
+  height: 200px;
+  border-radius: 15px;
+}
+
+.envios {
+  padding: 18px;
+  width: 250px;
+  height: 70px;
+}
+
+.envios ul {
+  text-align: center;
+  list-style: none;
+  display: flex;
+  gap: 5px;
+}
+
+.envios ul h2 {
+  padding: 22px;
+  list-style: none;
+  font-size: large;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  display: flex;
+  color: rgb(63, 63, 63);
+}
+
+.envios ul li img {
+  border-radius: 30px;
+  width: 70px;
+  height: 70px;
+}
+
+.envios_description {
+  padding: 20px;
+  width: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.envios_description li {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  padding: 8px;
+  width: 190px;
+  height: 30px;
+}
+
+.envios_description2 {
+  padding: 20px;
+  width: 350px;
+  display: flex;
+  justify-content: center;
+}
+
+.envios_description2 ul p {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: large;
+}
+
+.envios2 ul {
+  padding: 20px;
+  width: auto;
+  height: 60px;
+  justify-content: center;
+  display: flex;
+}
+
+.envios2 ul h3 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: rgb(54, 54, 54);
+}
+
+.catalogo {
+  padding: 40px;
+}
+
+.categorias {
+  display: flex;
+
+  justify-content: center;
+
+  gap: 40px;
+
+  margin-bottom: 40px;
+}
+
+.categorias a {
+  color: black;
+
+  text-decoration: none;
+}
+
+.contenido-catalogo {
+  display: flex;
+
+  gap: 40px;
+}
+
+.filtros {
+  width: 180px;
+}
+
+.filtros ul {
+  list-style: none;
+
+  margin-top: 20px;
+}
+
+.filtros li {
+  margin-bottom: 10px;
+}
+
+.productos {
+  flex: 1;
+
+  display: grid;
+
+  grid-template-columns: repeat(3, 1fr);
+
+  gap: 30px;
+}
+
+.producto img {
+  width: 100%;
+
+  height: 250px;
+
+  object-fit: contain;
+
+  border: 1px solid #ddd;
+}
+
+.producto h3 {
+  font-size: 15px;
+
+  margin-top: 10px;
+}
+
+.producto p {
+  margin-top: 5px;
+}
+
+.catalogo {
+
+    padding:40px;
+
+}
+
+
+
+.catalogo h1 {
+
+    margin-bottom:40px;
+
+}
+
+
+
+.categorias {
+
+    display:flex;
+
+    justify-content:center;
+
+    gap:30px;
+
+    margin-bottom:50px;
+
+}
+
+
+
+.categorias button {
+
+
+    background:white;
+
+    border:1px solid #ddd;
+
+    border-radius:20px;
+
+    padding:8px 25px;
+
+    cursor:pointer;
+
+
+}
