@@ -2,7 +2,8 @@
 @import url(menu.css);
 @import url(pie.css);
 @import url(sub_navegador.css);
-@import url(catalogo.css);
+@import url(recuadro.css);
+@import url(mis_compras.css);
 
 * {
   margin: 0;

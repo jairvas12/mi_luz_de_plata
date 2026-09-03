@@ -14,12 +14,15 @@
     gap: 40px;
     padding: 8px;
     margin: 5px auto;
+
 }
 .sub_navegador ul li{
     color: black;
     font-size: 13px;
+
 }
 
 .sub_navegador ul li a{
     color: black;
+    text-decoration: none;
 }

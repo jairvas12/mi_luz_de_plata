@@ -2,17 +2,26 @@
 .opciones{
     padding: 20px;
     width: auto;
-    height: 200px;
+    height: 1000px;
     margin: 40px auto;
-
+}
+.descripcion{
+    justify-content: center;
+    display: flex;
+}
+.descripcion div h2{
+    justify-content: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.descripcion div p{
+    padding: 5px;
+    justify-content: center;
+    font-family: sans-serif;
 }
 .contenedor_opciones{
     display: flex;
     gap: 50px;
     justify-content: center;
-    padding: 10px;
-    width: auto;
-    height: 300px;
 }
 .contenedor_opciones2{
     display: flex;
@@ -73,7 +82,6 @@
 .envios_description2{
     padding: 20px;
     width: 350px;
-    display: flex;
     justify-content: center;
 }
 .envios_description2 ul p{
@@ -83,8 +91,6 @@
 
 .envios2 ul{
     padding: 20px;
-    width: auto;
-    height: 60px;
     justify-content: center;
     display: flex;
 }
@@ -92,3 +98,5 @@
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: rgb(54, 54, 54);
 }
+
+

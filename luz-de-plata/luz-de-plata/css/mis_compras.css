@@ -1,0 +1,62 @@
+.articulos {
+    border: solid 1px #ccc;
+    width: 1000px;
+    margin: auto;
+    padding: 15px;
+}
+
+.orden_compras {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+/* IMAGEN */
+
+.imagen_compras img {
+    height: 100px;
+    width: 100px;
+
+    border: solid 1px grey;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+/* INFORMACIÓN DEL PRODUCTO */
+
+.des_compra {
+    margin-left: 20px;
+}
+
+.des_compra h2 {
+    font-size: 16px;
+    margin: 0 0 8px 0;
+}
+
+.des_compra p {
+    font-size: 14px;
+    margin: 2px 0;
+}
+
+.des_compra .precio {
+    font-size: 13px;
+    margin-top: 3px;
+}
+
+/* FECHA */
+
+.fecha_compra {
+    margin-left: auto;
+    text-align: center;
+}
+
+.fecha_compra h3 {
+    font-size: 11px;
+    margin: 0 0 8px 0;
+}
+
+.fecha_compra p {
+    font-size: 12px;
+    margin: 0;
+}
